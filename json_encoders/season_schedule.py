@@ -1,6 +1,6 @@
 import json
 
-from basketball_reference_web_scraper.models.schedule import SeasonSchedule
+from basketball_reference_web_scraper.models.season_schedule import SeasonSchedule
 
 
 class ScheduleJsonEncoder(json.JSONEncoder):
