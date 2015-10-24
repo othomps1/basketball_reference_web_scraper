@@ -9,6 +9,8 @@ class SeasonSchedule:
         assert isinstance(season_start_year, int)
         assert isinstance(season_end_year, int)
 
+        assert season_start_year <= season_end_year
+
         self.season_end_year = season_end_year
         self.season_start_year = season_start_year
         self.events = events
