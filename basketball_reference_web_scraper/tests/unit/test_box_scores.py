@@ -1,7 +1,7 @@
 from unittest import TestCase
 
 from basketball_reference_web_scraper.client import box_scores
-from errors import InvalidDate
+from basketball_reference_web_scraper.errors import InvalidDate
 from basketball_reference_web_scraper.data import OutputType, OutputWriteOption
 
 
