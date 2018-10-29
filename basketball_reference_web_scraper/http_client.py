@@ -1,6 +1,6 @@
 import requests
 
-from errors import InvalidDate
+from basketball_reference_web_scraper.errors import InvalidDate
 from basketball_reference_web_scraper.parsers.box_scores import parse_box_score
 from basketball_reference_web_scraper.parsers.schedule import parse_schedule, parse_schedule_for_month_url_paths
 from basketball_reference_web_scraper.parsers.player_season_totals import parse_player_season_totals
